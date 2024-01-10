@@ -9,7 +9,7 @@ require('dotenv').config({ path: '.env' });
  * The Event Manager component is responsible for managing the events to and from the manager instance.
  */
 
-/* RuleKeeper middleware instance socket */
+/* RuleKeeperMiddleware instance socket */
 let socketIO;
 
 module.exports = {

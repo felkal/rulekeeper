@@ -9,12 +9,12 @@ import {
 import gcpStackdriverTracer from '../libs/gcpTraceAgent';
 import common from '../../common';
 import { getLanguageFromUser } from '../libs/language';
-import rulekeeper from '../../../../../RuleKeeper Middleware';
+import rulekeeper from '../../../../../RuleKeeperMiddleware';
 
 const COMMUNITY_MANAGER_EMAIL = nconf.get('EMAILS_COMMUNITY_MANAGER_EMAIL');
 const USER_FIELDS_ALWAYS_LOADED = ['_id', 'notifications', 'preferences', 'auth', 'flags'];
 
-function getUserFields (options, req) {
+function getUserFields(options, req) {
   // A list of user fields that aren't needed for the route and are not loaded from the db.
   // Must be an array
   if (options.userFieldsToExclude) {
@@ -42,7 +42,7 @@ function getUserFields (options, req) {
 }
 
 // Make sure stackdriver traces are storing the user id
-function stackdriverTraceUserId (userId) {
+function stackdriverTraceUserId(userId) {
   if (gcpStackdriverTracer) {
     gcpStackdriverTracer.getCurrentRootSpan().addLabel('userId', userId);
   }
@@ -52,8 +52,8 @@ function stackdriverTraceUserId (userId) {
 
 // Authenticate a request through the x-api-user and x-api key header
 // If optional is true, don't error on missing authentication
-export function authWithHeaders (options = {}) {
-  return function authWithHeadersHandler (req, res, next) {
+export function authWithHeaders(options = {}) {
+  return function authWithHeadersHandler(req, res, next) {
     const userId = req.header('x-api-user');
     const apiToken = req.header('x-api-key');
     const optional = options.optional || false;
@@ -106,7 +106,7 @@ export function authWithHeaders (options = {}) {
 }
 
 // Authenticate a request through a valid session
-export function authWithSession (req, res, next) {
+export function authWithSession(req, res, next) {
   const { userId } = req.session;
 
   // Always allow authentication with headers

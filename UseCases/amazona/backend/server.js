@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const config = require('./config');
 const unless = require('express-unless');
 const { isAuth } = require('./util');
-const rulekeeper = require('../../../RuleKeeper Middleware');
+const rulekeeper = require('../../../RuleKeeperMiddleware');
 rulekeeper.init(mongoose);
 
 const userRoute = require('./routes/userRoute');

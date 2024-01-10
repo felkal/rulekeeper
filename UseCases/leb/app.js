@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const unless = require('express-unless');
 const logger = require('./utils/logger');
-const rulekeeper = require('../../RuleKeeper Middleware');
+const rulekeeper = require('../../RuleKeeperMiddleware');
 
 const app = express();
 rulekeeper.measureRequestTime(app);

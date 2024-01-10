@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const auth = require('basic-auth');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { sessionManagement } = require('../../../RuleKeeper Middleware/api');
+const { sessionManagement } = require('../../../RuleKeeperMiddleware/api');
 
 const User = mongoose.model('users');
 require('dotenv').config({ path: '.env' });

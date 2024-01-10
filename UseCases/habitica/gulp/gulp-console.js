@@ -7,7 +7,7 @@ import {
   getDevelopmentConnectionUrl,
   getDefaultConnectionOptions,
 } from '../website/server/libs/mongodb';
-import rulekeeper from '../../../RuleKeeper Middleware';
+import rulekeeper from '../../../RuleKeeperMiddleware';
 
 rulekeeper.addMongooseMiddleware(mongoose);
 // Add additional properties to the repl's context
@@ -16,7 +16,7 @@ const improveRepl = context => {
   // Let "exit" and "quit" terminate the console
   ['exit', 'quit'].forEach(term => {
     Object.defineProperty(context, term, {
-      get () { // eslint-disable-line getter-return
+      get() { // eslint-disable-line getter-return
         process.exit();
       },
     });
@@ -24,7 +24,7 @@ const improveRepl = context => {
 
   // "clear" clears the screen
   Object.defineProperty(context, 'clear', {
-    get () { // eslint-disable-line getter-return
+    get() { // eslint-disable-line getter-return
       process.stdout.write('\u001B[2J\u001B[0;0f');
     },
   });

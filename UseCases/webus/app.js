@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const cookieParser = require('cookie-parser')
-const rulekeeper = require('../../RuleKeeper Middleware');
+const rulekeeper = require('../../RuleKeeperMiddleware');
 
 const app = express();
 

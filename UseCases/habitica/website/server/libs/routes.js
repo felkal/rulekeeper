@@ -12,9 +12,9 @@ import {
 const _wrapAsyncFn = fn => (...args) => fn(...args).catch(args[2]);
 const noop = (req, res, next) => next();
 
-import rulekeeper from '../../../../../RuleKeeper Middleware';
+import rulekeeper from '../../../../../RuleKeeperMiddleware';
 
-export function readController (router, controller, overrides = []) {
+export function readController(router, controller, overrides = []) {
   _.each(controller, action => {
     let {
       method,
@@ -62,7 +62,7 @@ export function readController (router, controller, overrides = []) {
   });
 }
 
-export function walkControllers (router, filePath, overrides) {
+export function walkControllers(router, filePath, overrides) {
   fs
     .readdirSync(filePath)
     .forEach(fileName => {

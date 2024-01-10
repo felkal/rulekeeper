@@ -14,7 +14,7 @@ const timeUtils = require('./timeUtils');
 
 
 /**
- * This file contains the API to integrate the RuleKeeper middleware in Express applications.
+ * This file contains the API to integrate the RuleKeeperMiddleware in Express applications.
  * The middleware intercepts requests and queries.
  * Restrictions:
  *      Mongoose middleware must be initialized before compiling the models (https://mongoosejs.com/docs/middleware.html#defining)
@@ -26,7 +26,7 @@ const timeUtils = require('./timeUtils');
 module.exports = {
 
   /**
-   * Initializes RuleKeeper middleware
+   * Initializes RuleKeeperMiddleware
    * @param mongoose
    */
   init(mongoose) {

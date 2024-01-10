@@ -31,7 +31,7 @@ import responseHandler from './response';
 import {
   attachTranslateFunction,
 } from './language';
-import rulekeeper from '../../../../../RuleKeeper Middleware';
+import rulekeeper from '../../../../../RuleKeeperMiddleware';
 
 const IS_PROD = nconf.get('IS_PROD');
 const DISABLE_LOGGING = nconf.get('DISABLE_REQUEST_LOGGING') === 'true';
@@ -41,7 +41,7 @@ const ENABLE_HTTP_AUTH = nconf.get('SITE_HTTP_AUTH_ENABLED') === 'true';
 const SESSION_SECRET = nconf.get('SESSION_SECRET');
 const TEN_YEARS = 1000 * 60 * 60 * 24 * 365 * 10;
 
-export default function attachMiddlewares (app, server) {
+export default function attachMiddlewares(app, server) {
   setupExpress(app);
 
   app.use(domainMiddleware(server, mongoose));
@@ -76,7 +76,7 @@ export default function attachMiddlewares (app, server) {
   app.use(bodyParser.urlencoded({
     extended: true, // Uses 'qs' library as old connect middleware
   }));
-  app.use(function bodyMiddleware (req, res, next) { // eslint-disable-line prefer-arrow-callback
+  app.use(function bodyMiddleware(req, res, next) { // eslint-disable-line prefer-arrow-callback
     if (req.path === '/stripe/webhooks') {
       // Do not parse the body for `/stripe/webhooks`
       // See https://stripe.com/docs/webhooks/signatures#verify-official-libraries

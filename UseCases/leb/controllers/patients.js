@@ -8,7 +8,7 @@ const User = mongoose.model('users');
 const Entity = mongoose.model('entities');
 const Consent = mongoose.model('consentimentos');
 
-const rulekeeper = require('../../../RuleKeeper Middleware/api');
+const rulekeeper = require('../../../RuleKeeperMiddleware/api');
 
 module.exports = {
 

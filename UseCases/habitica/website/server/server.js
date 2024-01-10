@@ -2,7 +2,7 @@ import nconf from 'nconf';
 import express from 'express';
 import http from 'http';
 import logger from './libs/logger';
-import rulekeeper from '../../../../RuleKeeper Middleware';
+import rulekeeper from '../../../../RuleKeeperMiddleware';
 
 // Setup translations
 // Must come before attach middlewares so Mongoose validations can use translations

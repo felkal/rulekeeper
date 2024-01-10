@@ -27,7 +27,7 @@ Id:ID¿Type¿IdentifierName¿Value¿Location¿Label:LABEL
 25¿VariableDeclarator¿rulekeeper¿¿¿VariableDeclarator
 26¿CallExpression¿¿¿¿CallExpression
 27¿Identifier¿require¿¿¿Identifier
-28¿Literal¿¿../../RuleKeeper Middleware¿¿Literal
+28¿Literal¿¿../../RuleKeeperMiddleware¿¿Literal
 29¿VariableDeclarator¿flatten¿¿¿VariableDeclarator
 30¿CallExpression¿¿¿¿CallExpression
 31¿Identifier¿require¿¿¿Identifier
@@ -105,7 +105,7 @@ Id:ID¿Type¿IdentifierName¿Value¿Location¿Label:LABEL
 103¿VariableDeclarator¿v8¿¿¿VariableDeclarator
 104¿CallExpression¿¿¿¿CallExpression
 105¿Identifier¿require¿¿¿Identifier
-106¿Literal¿¿../../../RuleKeeper Middleware/api¿¿Literal
+106¿Literal¿¿../../../RuleKeeperMiddleware/api¿¿Literal
 107¿VariableDeclarator¿sessionManagement¿¿¿VariableDeclarator
 108¿MemberExpression¿¿¿¿MemberExpression
 109¿Identifier¿v8¿¿¿Identifier
