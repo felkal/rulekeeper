@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Bus ticket management toy application to showcase RuleKeeper's solution",
   "scripts": {
+    "mongo:start": "docker run --name realworld-mongo -p 27017:27017 mongo & sleep 5",
     "start": "node bin/www",
     "start2": "node bin/www2",
-    "debug": "DEBUG='RULEKEEPER'* DEBUG_COLORS=false node bin/www"
+    "debug": "DEBUG='RULEKEEPER'* DEBUG_COLORS=false node bin/www",
+    "mongo:stop": "docker stop realworld-mongo && docker rm realworld-mongo"
   },
   "license": "ISC",
   "dependencies": {
