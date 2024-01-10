@@ -3,15 +3,28 @@ const mongoose = require('mongoose');
 
 require('./models/tickets')
 require('./models/newsletter')
-require('./models/schedule')
+require('./models/schedules')
 const Ticket = mongoose.model('tickets');
 const Newsletter = mongoose.model('newsletter');
-const Schedule = mongoose.model('schedule');
+const Schedule = mongoose.model('schedules');
 
 const app = express();
 const router = express.Router();
+app.use(express.json())
 
-router.post('/buy_ticket', function(req, res) {
+// connect to database
+mongoose.connect("mongodb://localhost:27017/webus", { useUnifiedTopology: true, useNewUrlParser: true });
+
+mongoose.connection.once('open', () => {
+  console.log('MongoDB database connection established successfully');
+});
+mongoose.connection.on('error', (err) => {
+  console.log(`🙅 🚫 🙅 🚫 🙅 🚫 🙅 🚫 → ${err.message}`, '[App]');
+});
+
+
+router.post('/buy_ticket', function (req, res) {
+  console.log("lol");
   const { name, e_mail, credit_card, destination, schedule } = req.body;
 
   const ticket = {
@@ -22,16 +35,16 @@ router.post('/buy_ticket', function(req, res) {
     credit_card: credit_card,
   };
 
-  Ticket.create(ticket,  (err, createdTicket ) => {
-    if (err) { res.sendStatus(400)}
+  Ticket.create(ticket, (err, createdTicket) => {
+    if (err) { res.sendStatus(400); return }
     res.sendStatus(200);
   });
 });
 
-router.post('/subscribe', function(req,res) {
+router.post('/subscribe', function (req, res) {
   const { e_mail } = req.body;
 
-  if ( !e_mail) {
+  if (!e_mail) {
     res.status(400).json('Missing information'); return;
   }
 
@@ -40,17 +53,17 @@ router.post('/subscribe', function(req,res) {
     e_mail: e_mail,
   };
 
-  Newsletter.create(subscription,  (err, subscribedEmail ) => {
+  Newsletter.create(subscription, (err, subscribedEmail) => {
     if (err) { res.status(400).json('Error subscribing to newsletter.'); return; }
 
-    Ticket.find(  { $and: [ {e_mail: e_mail}, {date: {$gte: new Date(2020)} }] },
-        (err, tickets) => {
-          if (tickets.length >= 10) {
-            console.log("Send Promo Code");
-            res.status(200).json({ subscribedEmail, frequentTraveler: true});
-          }
-          else res.status(200).json({subscribedEmail, frequentTraveler: false});
-        })
+    Ticket.find({ $and: [{ e_mail: e_mail }, { date: { $gte: new Date(2020) } }] },
+      (err, tickets) => {
+        if (tickets.length >= 10) {
+          console.log("Send Promo Code");
+          res.status(200).json({ subscribedEmail, frequentTraveler: true });
+        }
+        else res.status(200).json({ subscribedEmail, frequentTraveler: false });
+      })
   });
 });
 
@@ -61,14 +74,15 @@ router.get('/schedules', function (req, res) {
   });
 });
 
-router.get('/purchase_history', function(req, res) {
+router.get('/purchase_history', function (req, res) {
   const { name } = req.query;
 
-  Ticket.find( {$where: "this.name === '" + name + "'"} , 'name destination date -_id', (err, tickets) => {
+  Ticket.find({ $where: "this.name === '" + name + "'" }, 'name destination date -_id', (err, tickets) => {
     if (err) { res.status(400).json('Error fetching ticket history.'); return; }
     res.status(200).json(tickets);
   })
 })
+
 
 app.use(router)
 
