@@ -1,5 +1,16 @@
 const fs = require('fs');
-let file = fs.createWriteStream(`results/benchmark.csv`, { flags: 'a' });
+const path = require('path');
+
+// Get the current working directory
+const currentWorkingDirectory = process.cwd();
+
+// Get the directory of the current module (file)
+const currentFileDir = __dirname;
+
+// Calculate the relative path
+const relativePath = path.relative(currentWorkingDirectory, currentFileDir);
+
+let file = fs.createWriteStream(`${currentWorkingDirectory}/${relativePath}/results/benchmark.csv`, { flags: 'a' });
 file.write(`context, cookies, access_control, ownership, transfer, total\n`)
 
 module.exports = {
