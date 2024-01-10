@@ -18,7 +18,7 @@ const server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(port);
+server.listen(port, '127.0.0.1');
 server.on('error', onError);
 server.on('listening', onListening);
 
@@ -62,7 +62,7 @@ function onListening() {
  */
 function normalizePort(val) {
   const nrPort = parseInt(val, 10);
-  if (Number.isNaN(nrPort))  return val; // named pipe
+  if (Number.isNaN(nrPort)) return val; // named pipe
   if (nrPort >= 0) return nrPort    // port number
   return false;
 }
