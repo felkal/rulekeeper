@@ -21,3 +21,7 @@ In this repository you will find:
 
 1. go into every subdir and run 'npm install'
 2. create middleware server cert with 'openssl req -x509 -newkey rsa:4096 -keyout RuleKeeper\ Middleware/config/key.pem -out RuleKeeper\ Middleware/config/server.cert -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"'
+3. Create folder "RuleKeeper Middleware/pep/policies"
+4. Create folder "RuleKeeper Middleware/results"
+5. Create file "RuleKeeper Middleware/results/benchmark.csv"
+6. Copy manifest from "Usability Tests/<unzipped_folder>/webus/gdpr_manifest.txt" to
