@@ -17,11 +17,25 @@ In this repository you will find:
 * The material used for the usability tests in **UsabilityTests/**;
 * The use case applications in **UseCases/**.
 
+# Quick setup
+
+run `bash quick_setup.sh``
+
 # Setup
 
-1. go into every subdir and run 'npm install'
-2. create middleware server cert with 'openssl req -x509 -newkey rsa:4096 -keyout RuleKeeper\ Middleware/config/key.pem -out RuleKeeper\ Middleware/config/server.cert -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"'
-3. Create folder "RuleKeeperMiddleware/pep/policies"
-4. Create folder "RuleKeeperMiddleware/results"
-5. Create file "RuleKeeperMiddleware/results/benchmark.csv"
-6. Copy manifest from "UsabilityTests/<unzipped_folder>/webus/gdpr_manifest.txt" to
+1. go into every subdir and run `npm install`
+
+## RuleKeeperManager
+
+1. create manager server cert with `openssl req -x509 -newkey rsa:4096 -keyout RuleKeeperManager/utils/server.key -out RuleKeeperManager/utils/server.cert -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"`
+2. Get OPA binary: https://github.com/open-policy-agent/opa/releases
+3. Copy OPA binary `~/.local/bin/opa` and execute `chmod +x ~/.local/bin/opa`
+4. create all paths declared in .env
+5. Set initial version in `RuleKeeperManager/config/versions.json` to 1: `{"access_control.wasm": 1, "rulekeeper.wasm": 1}`
+
+## RuleKeeperMiddleware
+
+1. create middleware server cert with `openssl req -x509 -newkey rsa:4096 -keyout RuleKeeperMiddleware/config/key.pem -out RuleKeeperMiddleware/config/server.cert -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"`
+2. Create folder `RuleKeeperMiddleware/pep/policies`
+3. Create folder `RuleKeeperMiddleware/results`
+4. Create file `RuleKeeperMiddleware/results/benchmark.csv`

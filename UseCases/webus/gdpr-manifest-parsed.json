@@ -1,0 +1,34 @@
+{
+   "data_operations": [
+      {
+         "operation": "POST /buy_ticket",
+         "data": [
+            {
+               "table": "tickets",
+               "column": "name"
+            },
+            {
+               "table": "tickets",
+               "column": "credit_card"
+            },
+            {
+               "table": "tickets",
+               "column": "destination"
+            },
+            {
+               "table": "tickets",
+               "column": "date"
+            }
+         ]
+      },
+      {
+         "operation": "POST /subscribe",
+         "data": [
+            {
+               "table": "newsletter",
+               "column": "e_mail"
+            }
+         ]
+      }
+   ]
+}

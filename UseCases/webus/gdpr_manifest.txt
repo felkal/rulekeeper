@@ -1,0 +1,41 @@
+data-item(user name)
+data-item(user credit card)
+data-item(user email)
+data-item(ticket destination)
+data-item(ticket date)
+data-item(schedule destination)
+data-item(schedule date)
+
+personal-data-item(user name)
+personal-data-item(user credit card)
+personal-data-item(user email)
+personal-data-item(ticket destination)
+personal-data-item(ticket date)
+
+operation(see schedules)
+operation(buy ticket)
+operation(subscribe to newsletter)
+
+purpose(ticket management)
+purpose(marketing)
+
+collected-for(ticket management, [user name, user credit card, ticket destination, ticket date])
+collected-for(marketing, [user email])
+
+executed-for(buy ticket, ticket management)
+executed-for(subscribe to newsletter, marketing)
+
+map-data(user name, tickets, name)
+map-data(user credit card, tickets, credit_card)
+map-data(user email, newsletter, e_mail)
+map-data(ticket destination, tickets, destination)
+map-data(ticket date, tickets, date)
+map-data(schedule destination, schedules, destination)
+map-data(schedule date, schedules, date)
+
+map-operation(see schedules, GET /schedules)
+map-operation(buy ticket, POST /buy_ticket)
+map-operation(subscribe to newsletter, POST /subscribe)
+
+lawfulness-base(ticket management, consent);
+lawfulness-base(marketing, consent);
