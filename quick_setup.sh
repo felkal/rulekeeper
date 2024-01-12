@@ -4,13 +4,19 @@
 
 echo "Installing npm for RuleKeeper..."
 
+echo "Installing Parser ..."
 (cd ./Parser; npm install --silent)
+
+echo "Installing RuleKeeperManager ..."
 (cd ./RuleKeeperManager; npm install --silent)
+
+echo "Installing RuleKeeperMiddleware ..."
 (cd ./RuleKeeperMiddleware; npm install --silent)
+
+echo "Installing StaticAnalysisEngine/parser ..."
 (cd ./StaticAnalysisEngine/parser; npm install --silent)
 
-echo "Installing npm for webus..."
-
+echo "Installing UseCases/webus..."
 (cd ./UseCases/webus; npm install --silent)
 
 
