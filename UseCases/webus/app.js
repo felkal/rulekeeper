@@ -24,6 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 require('./models/tickets')
 require('./models/newsletter')
 require('./models/schedules')
+const Schedule = mongoose.model('schedules');
 
 // Load routes
 const indexRouter = require('./routes');
@@ -40,8 +41,24 @@ mongoose.connection.on('error', (err) => {
   console.log(`🙅 🚫 🙅 🚫 🙅 🚫 🙅 🚫 → ${err.message}`, '[App]');
 });
 
+
+// Create a new schedule instance with only required fields
+const newSchedule = new Schedule({
+  destination: 'Your Destination',
+  date: new Date('2024-01-17'), // Replace with your desired date
+});
+
+// Save the new schedule to the database
+newSchedule.save()
+  .then(savedSchedule => {
+    console.log('Schedule saved successfully:', savedSchedule);
+  })
+  .catch(error => {
+    console.error('Error saving schedule:', error);
+  });
+
+
 app.use('/', indexRouter);
 app.use('/tickets', ticketRouter);
 app.use('/newsletter', newsletterRouter);
-
 module.exports = app;

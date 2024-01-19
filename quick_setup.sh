@@ -86,7 +86,7 @@ echo "Setting up policy for webus..."
 echo ""
 
 echo "Step 1: Copy policy to RuleKeeperManager"
-cp ./UseCases/webus/gdpr-manifest-parsed.json RuleKeeperManager/policies/data/privacy_policy.json
+cp ./manifest_webus.json RuleKeeperManager/policies/data/privacy_policy.json
 
 echo ""
 echo "Setup completed."

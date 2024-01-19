@@ -1,0 +1,115 @@
+{
+   "data_items": [
+      "user name",
+      "user credit card",
+      "user email",
+      "ticket destination",
+      "ticket date",
+      "schedule destination",
+      "schedule date"
+   ],
+   "personal_data_items": [
+      "user name",
+      "user credit card",
+      "user email",
+      "ticket destination",
+      "ticket date"
+   ],
+   "purposes": [
+      "ticket management",
+      "marketing"
+   ],
+   "data_purposes": [
+      {
+         "purpose": "ticket management",
+         "data": [
+            "user name",
+            "user credit card",
+            "ticket destination",
+            "ticket date"
+         ]
+      },
+      {
+         "purpose": "marketing",
+         "data": [
+            "user email"
+         ]
+      }
+   ],
+   "data-location": [
+      {
+         "data": "user name",
+         "table": "tickets",
+         "column": "name"
+      },
+      {
+         "data": "user credit card",
+         "table": "tickets",
+         "column": "credit_card"
+      },
+      {
+         "data": "user email",
+         "table": "newsletter",
+         "column": "e_mail"
+      },
+      {
+         "data": "ticket destination",
+         "table": "tickets",
+         "column": "destination"
+      },
+      {
+         "data": "ticket date",
+         "table": "tickets",
+         "column": "date"
+      },
+      {
+         "data": "schedule destination",
+         "table": "schedules",
+         "column": "destination"
+      },
+      {
+         "data": "schedule date",
+         "table": "schedules",
+         "column": "date"
+      }
+   ],
+   "operations": [
+      "see schedules",
+      "buy ticket",
+      "subscribe to newsletter"
+   ],
+   "operation_purposes": [
+      {
+         "operation": "buy ticket",
+         "purpose": "ticket management"
+      },
+      {
+         "operation": "subscribe to newsletter",
+         "purpose": "marketing"
+      }
+   ],
+   "operation_endpoints": [
+      {
+         "operation": "see schedules",
+         "endpoint": "GET /schedules"
+      },
+      {
+         "operation": "buy ticket",
+         "endpoint": "POST /buy_ticket"
+      },
+      {
+         "operation": "subscribe to newsletter",
+         "endpoint": "POST /subscribe"
+      }
+   ],
+   "lawfulness_bases": [
+      {
+         "purpose": "ticket management",
+         "base": "consent"
+      },
+      {
+         "purpose": "marketing",
+         "base": "consent"
+      }
+   ]
+}

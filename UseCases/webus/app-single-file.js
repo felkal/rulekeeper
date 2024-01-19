@@ -24,7 +24,6 @@ mongoose.connection.on('error', (err) => {
 
 
 router.post('/buy_ticket', function (req, res) {
-  console.log("lol");
   const { name, e_mail, credit_card, destination, schedule } = req.body;
 
   const ticket = {
