@@ -1,0 +1,14 @@
+[
+   {
+      "username":"alice",
+      "password":"$2a$10$RBfYatIdZKc3Sxs6oojYrOq5wmYnTIYEPYT489dKWDgaXznJheJ6G"
+   },
+   {
+      "username":"admin",
+      "password":"$2a$10$RBfYatIdZKc3Sxs6oojYrOq5wmYnTIYEPYT489dKWDgaXznJheJ6G"
+   },
+   {
+      "username": "charles",
+      "password": "$2a$10$RBfYatIdZKc3Sxs6oojYrOq5wmYnTIYEPYT489dKWDgaXznJheJ6G"
+   }
+]

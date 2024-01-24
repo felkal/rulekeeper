@@ -1,0 +1,231 @@
+{
+  "data_items": [
+    "ticket buyer name",
+    "ticket buyer mail",
+    "ticket destination",
+    "ticket date",
+    "ticket buyer credit card",
+    "trip destination",
+    "trip date",
+    "trip travelers",
+    "newsletter subscriber name",
+    "newsletter subscriber email"
+  ],
+  "personal_data_items": [
+    "ticket buyer name",
+    "ticket buyer mail",
+    "ticket destination",
+    "ticket date",
+    "ticket buyer credit card",
+    "trip travelers",
+    "newsletter subscriber name",
+    "newsletter subscriber email"
+  ],
+  "purposes": [
+    "ticket management",
+    "marketing"
+  ],
+  "data_purposes": [
+    {
+      "data": "ticket buyer name",
+      "purposes": [
+        "ticket management"
+      ]
+    },
+    {
+      "data": "ticket buyer mail",
+      "purposes": [
+        "ticket management"
+      ]
+    },
+    {
+      "data": "ticket destination",
+      "purposes": [
+        "ticket management"
+      ]
+    },
+    {
+      "data": "ticket date",
+      "purposes": [
+        "ticket management"
+      ]
+    },
+    {
+      "data": "ticket buyer credit card",
+      "purposes": [
+        "ticket management"
+      ]
+    },
+    {
+      "data": "trip travelers",
+      "purposes": []
+    },
+    {
+      "data": "newsletter subscriber name",
+      "purposes": [
+        "marketing"
+      ]
+    },
+    {
+      "data": "newsletter subscriber email",
+      "purposes": [
+        "marketing"
+      ]
+    }
+  ],
+  "maximum_data": [
+    {
+      "purpose": "ticket management",
+      "data": [
+        "ticket buyer name",
+        "ticket buyer mail",
+        "ticket destination",
+        "ticket date",
+        "ticket buyer credit card"
+      ]
+    },
+    {
+      "purpose": "marketing",
+      "data": [
+        "newsletter subscriber name",
+        "newsletter subscriber email"
+      ]
+    }
+  ],
+  "data_location": [
+    {
+      "data": "ticket buyer name",
+      "table": "tickets",
+      "column": "name"
+    },
+    {
+      "data": "ticket buyer mail",
+      "table": "tickets",
+      "column": "e_mail"
+    },
+    {
+      "data": "ticket destination",
+      "table": "tickets",
+      "column": "destination"
+    },
+    {
+      "data": "ticket date",
+      "table": "tickets",
+      "column": "date"
+    },
+    {
+      "data": "ticket buyer credit card",
+      "table": "tickets",
+      "column": "credit_card"
+    },
+    {
+      "data": "trip destination",
+      "table": "schedules",
+      "column": "destination"
+    },
+    {
+      "data": "trip date",
+      "table": "schedules",
+      "column": "date"
+    },
+    {
+      "data": "trip travelers",
+      "table": "schedules",
+      "column": "travelers"
+    },
+    {
+      "data": "newsletter subscriber name",
+      "table": "newsletters",
+      "column": "name"
+    },
+    {
+      "data": "newsletter subscriber email",
+      "table": "newsletters",
+      "column": "e_mail"
+    }
+  ],
+  "operations": [
+    "see schedules",
+    "buy ticket",
+    "see purchase history",
+    "subscribe to newsletter"
+  ],
+  "operation_purposes": [
+    {
+      "operation": "buy ticket",
+      "purpose": "ticket management"
+    },
+    {
+      "operation": "see purchase history",
+      "purpose": "ticket management"
+    },
+    {
+      "operation": "subscribe to newsletter",
+      "purpose": "marketing"
+    }
+  ],
+  "roles": [],
+  "role_operations": [
+    {
+      "role": "all",
+      "operations": [
+        "see schedules",
+        "buy ticket",
+        "see purchase history",
+        "subscribe to newsletter"
+      ]
+    }
+  ],
+  "operation_endpoints": [
+    {
+      "operation": "see schedules",
+      "endpoint": "GET /tickets/schedules"
+    },
+    {
+      "operation": "buy ticket",
+      "endpoint": "POST /tickets/buy_ticket"
+    },
+    {
+      "operation": "see purchase history",
+      "endpoint": "POST /tickets/purchase_history"
+    },
+    {
+      "operation": "subscribe to newsletter",
+      "endpoint": "POST /newsletter/subscribe"
+    }
+  ],
+  "lawfulness_bases": [
+    {
+      "purpose": "ticket management",
+      "base": "consent"
+    },
+    {
+      "purpose": "marketing",
+      "base": "consent"
+    }
+  ],
+  "personal_data_tables": [
+    {
+      "table": "tickets",
+      "column": "name"
+    },
+    {
+      "table": "newsletters",
+      "column": "name"
+    }
+  ],
+  "principals": [
+    { "principal": "some-user", "entity": "Some User"  },
+    { "principal": "some-user-no-marketing", "entity": "Some User No Marketing"  },
+    { "principal": "some-user-no-consent", "entity": "Some User No Consent"  }
+  ],
+  "entities": [
+    { "entity": "Some User", "roles": ["Data Subject"] },
+    { "entity": "Some User No Marketing", "roles": ["Data Subject"] },
+    { "entity": "Some User No Consent", "roles": ["Data Subject"] }
+  ],
+  "consents": [
+    { "dataSubject": "Some User", "purposes": ["ticket management", "marketing"] },
+    { "dataSubject": "Some User No Marketing", "purposes": ["ticket management"] }
+  ]
+}

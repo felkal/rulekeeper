@@ -1,0 +1,2171 @@
+[{
+  "_id": "81b7d92d-62ae-4088-812f-648f71549e6e",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:00.132Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:00.132Z"
+  },
+  "userId": "fded2b58-106d-4fd2-a20b-796374a298dc",
+  "__v": 0
+},{
+  "_id": "d9619328-6d62-4e33-8af0-4718ad1ea957",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:00.456Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:00.456Z"
+  },
+  "userId": "489c2c27-c2b2-4894-a069-2a79d11fb584",
+  "__v": 0
+},{
+  "_id": "e226fa97-4d87-45ee-a51e-5935d5d5466d",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:00.756Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:00.756Z"
+  },
+  "userId": "96ecf79e-e6b6-461d-91ef-18ff3f76a98a",
+  "__v": 0
+},{
+  "_id": "b7ae6bf8-ff7c-4448-a600-1c882cbb614f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:01.084Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:01.084Z"
+  },
+  "userId": "2e72731e-a90e-47d1-97d6-95cb111bcb60",
+  "__v": 0
+},{
+  "_id": "5908b4df-1fd4-47b3-9184-76093d57f3cf",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:01.344Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:01.344Z"
+  },
+  "userId": "7620fee9-d68d-41cf-88b1-3801aa2d812a",
+  "__v": 0
+},{
+  "_id": "c8c8ef86-06ff-46a0-841c-4f92ebe8f3ee",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:01.598Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:01.598Z"
+  },
+  "userId": "becf1957-fced-4459-b60f-a6a29178ad2a",
+  "__v": 0
+},{
+  "_id": "4d4a6805-b356-4231-b91f-848986cf939f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:01.863Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:01.863Z"
+  },
+  "userId": "4792917b-a13a-432f-8ff1-0cd4f3cc2688",
+  "__v": 0
+},{
+  "_id": "fdec54ce-dbfd-4f0d-84dd-25604c1951dd",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:02.082Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:02.082Z"
+  },
+  "userId": "66a2f96c-ea45-4658-af85-a47b3bf2ba33",
+  "__v": 0
+},{
+  "_id": "361c81cc-f0fa-4622-81dc-aa1c33e72c2d",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:02.329Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:02.329Z"
+  },
+  "userId": "96c700ef-213f-4dfd-85d1-73963423dfae",
+  "__v": 0
+},{
+  "_id": "79a6039c-a449-40fa-a57d-69c303093f9b",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:02.596Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:02.596Z"
+  },
+  "userId": "91271a90-0fd3-4e13-87aa-5c3bb01fc425",
+  "__v": 0
+},{
+  "_id": "0ad207da-a3eb-4128-8786-2c3c83a587c4",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:02.841Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:02.841Z"
+  },
+  "userId": "9518f5de-b3b7-4b25-a954-d514eaca0471",
+  "__v": 0
+},{
+  "_id": "937e5a73-fcbe-4fd2-81bd-6eddb2f4d561",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:03.117Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:03.117Z"
+  },
+  "userId": "fc4332a1-adca-480c-9674-3badb3caa1eb",
+  "__v": 0
+},{
+  "_id": "cbce622b-6501-461c-a196-622547f91615",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:03.372Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:03.372Z"
+  },
+  "userId": "d836bbf2-5b61-4bfd-86fc-61ddfb419560",
+  "__v": 0
+},{
+  "_id": "e7286362-76e3-4c00-89b9-8210192a8415",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:03.622Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:03.622Z"
+  },
+  "userId": "46a06f81-8992-4ac6-871f-46e63173a40d",
+  "__v": 0
+},{
+  "_id": "c5b51ccd-dc56-4fb9-b4e1-1a414d99e019",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:03.885Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:03.885Z"
+  },
+  "userId": "4bfd2e6e-1480-4b5c-8359-0e8cae2d1164",
+  "__v": 0
+},{
+  "_id": "1365a5e2-6971-48ed-9ac0-6ac29c44ad3f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:04.576Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:04.576Z"
+  },
+  "userId": "0ff755fa-4b74-4713-9fe4-95b157d84d80",
+  "__v": 0
+},{
+  "_id": "0a531884-ac35-4ac1-b73e-befd10b0e277",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:04.821Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:04.821Z"
+  },
+  "userId": "88d9daee-5a0d-4c1c-b15a-56d5040fe100",
+  "__v": 0
+},{
+  "_id": "2d3a0de9-e5f9-4e4f-bd22-8edaa8b24a80",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:05.065Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:05.065Z"
+  },
+  "userId": "5ef7bfcc-8d99-4c69-9214-9077f0ea1758",
+  "__v": 0
+},{
+  "_id": "34a9d30a-1577-4ac5-8b9b-96d526fc0e4d",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:05.308Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:05.308Z"
+  },
+  "userId": "5c039df8-89fe-4567-8843-053aae4d7918",
+  "__v": 0
+},{
+  "_id": "e6a4bc71-eaf7-4ae3-a3c4-7635873f9fc1",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:05.530Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:05.530Z"
+  },
+  "userId": "5502d8e2-d35c-4491-bfb8-6b3cf211c95d",
+  "__v": 0
+},{
+  "_id": "327f098e-4350-45e2-ae04-a0e02e9580a5",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:05.756Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:05.756Z"
+  },
+  "userId": "45df8baf-d08a-4acf-9139-5f83e53a7150",
+  "__v": 0
+},{
+  "_id": "8ea39529-d4dc-4c59-a7dc-e15438089211",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:05.989Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:05.989Z"
+  },
+  "userId": "2e87e16d-1739-4476-8ad7-b5a618fb9500",
+  "__v": 0
+},{
+  "_id": "0ed66d3e-24a7-4890-87ce-a0bbe745df36",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:06.196Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:06.196Z"
+  },
+  "userId": "ac2d2479-5303-4f67-a181-c5e190b31a59",
+  "__v": 0
+},{
+  "_id": "ac3cdf1e-9962-42bd-8b97-9275ef1721ec",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:06.428Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:06.428Z"
+  },
+  "userId": "e92bd2d5-4fd8-424e-8c43-fd890021ea03",
+  "__v": 0
+},{
+  "_id": "195caed2-35e2-4692-8c71-2def729990fc",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:06.665Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:06.665Z"
+  },
+  "userId": "8794943a-e87d-47c6-bcc9-60e124e235c8",
+  "__v": 0
+},{
+  "_id": "781769ac-2212-4c1e-9b4e-6833364cceba",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:06.878Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:06.878Z"
+  },
+  "userId": "b78f9031-06d8-4fda-acf8-1e145f552652",
+  "__v": 0
+},{
+  "_id": "66a8fe61-e436-4929-829c-1a04f6fb9e43",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:07.121Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:07.121Z"
+  },
+  "userId": "73adcf13-6121-44c0-a3f5-d6f6dd238b75",
+  "__v": 0
+},{
+  "_id": "547f1554-406e-48b6-87b5-7a4f0adb0909",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:07.357Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:07.357Z"
+  },
+  "userId": "fce0eae1-666e-4748-877f-ce755d8dd3b4",
+  "__v": 0
+},{
+  "_id": "c100ee50-0e6a-44ab-b831-667c049adbd4",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:07.594Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:07.594Z"
+  },
+  "userId": "a1b5db46-f19b-436f-b6dc-f5e92a472b79",
+  "__v": 0
+},{
+  "_id": "7bb03ff4-edcd-46de-a351-72c0084d6870",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:07.825Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:07.825Z"
+  },
+  "userId": "c9019e04-65aa-4725-8e68-9d5a634bc59a",
+  "__v": 0
+},{
+  "_id": "0466d35d-aee5-415e-8272-ecc892154f7d",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:08.065Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:08.065Z"
+  },
+  "userId": "94554b6d-75f7-4784-9015-f9e315ddb401",
+  "__v": 0
+},{
+  "_id": "879fccb4-fcf0-43e4-ab3c-2e35dcdca68a",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:08.289Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:08.289Z"
+  },
+  "userId": "63ceb7a1-11cf-4eca-86d4-65e6093d4ba7",
+  "__v": 0
+},{
+  "_id": "e8b36a48-3490-46f6-b088-505db5dbe0ae",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:08.530Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:08.530Z"
+  },
+  "userId": "a58ccd9b-9f8a-41de-8f23-a9233668d4fc",
+  "__v": 0
+},{
+  "_id": "e878a132-9a4d-4ed8-952d-5c253c45c1d8",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:08.773Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:08.773Z"
+  },
+  "userId": "f84c5a7f-ae53-4780-a7b2-13e72ca30ec0",
+  "__v": 0
+},{
+  "_id": "d1afa2f6-007f-4129-8e57-16121e91d52d",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:09.010Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:09.010Z"
+  },
+  "userId": "d3f5d831-5d25-4596-a30b-eff489488fda",
+  "__v": 0
+},{
+  "_id": "07868fd2-e547-465e-a663-f4016ed4cb76",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:09.260Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:09.260Z"
+  },
+  "userId": "4953d230-13fe-40fa-8f44-1dd89349ab05",
+  "__v": 0
+},{
+  "_id": "e369cbdd-e494-4e52-aa1d-bb4cd755302e",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:09.504Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:09.504Z"
+  },
+  "userId": "2821470c-0e0b-4015-bd55-4c97ce14edf2",
+  "__v": 0
+},{
+  "_id": "739e9890-46a6-49f7-ac38-c152c2caa725",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:09.737Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:09.737Z"
+  },
+  "userId": "5f251349-2aa3-45eb-afea-e6c7cfd1991f",
+  "__v": 0
+},{
+  "_id": "a8d47bd8-deea-46d2-adf2-e2d3757fcc4f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:09.979Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:09.979Z"
+  },
+  "userId": "ecd9cc47-d98a-427c-b4f4-41d594df1446",
+  "__v": 0
+},{
+  "_id": "dff7022c-03c1-4eab-b4ba-ae48b591fb04",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:10.211Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:10.211Z"
+  },
+  "userId": "e57ec0c2-37da-466c-97b8-be5aa4ba8428",
+  "__v": 0
+},{
+  "_id": "9c590345-bcba-4140-950d-879084a86639",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:10.451Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:10.451Z"
+  },
+  "userId": "03e6a1e1-ad24-4ac9-a800-982010ee4035",
+  "__v": 0
+},{
+  "_id": "3408fdc9-bc94-455f-a6ab-6b63a64eb16b",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:10.684Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:10.684Z"
+  },
+  "userId": "a437bc57-49bc-4aca-836e-f929cad6c9bd",
+  "__v": 0
+},{
+  "_id": "327fcd4b-a429-48f2-b14d-c39ea3c5963c",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:10.921Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:10.921Z"
+  },
+  "userId": "e6488442-f675-4a9a-a13d-babe73af7985",
+  "__v": 0
+},{
+  "_id": "a4e93f80-2150-4208-8589-2bbb12f4839f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:11.158Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:11.158Z"
+  },
+  "userId": "4180dac6-2d81-4aef-bd28-7e9532b62231",
+  "__v": 0
+},{
+  "_id": "30cef1b3-f57c-4fe9-8273-8ccb8192f5e7",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:11.374Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:11.374Z"
+  },
+  "userId": "fc518c1e-ac4c-41f3-9362-4c0ceeec54dc",
+  "__v": 0
+},{
+  "_id": "49605731-1eeb-4026-bedc-e7fe5f7087bb",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:11.607Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:11.607Z"
+  },
+  "userId": "e1c2f207-9a31-4ef9-bc25-c560428094d8",
+  "__v": 0
+},{
+  "_id": "c9127f3d-f45e-4e10-8696-53a782ee8284",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:11.844Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:11.844Z"
+  },
+  "userId": "08be58d3-860f-4ca9-8ebe-ac60a50a1d49",
+  "__v": 0
+},{
+  "_id": "ac139ddc-ff2b-4245-9064-00bfa020ca96",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:12.095Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:12.095Z"
+  },
+  "userId": "3d71e0d3-307d-4b8d-93b4-f827ffa8a886",
+  "__v": 0
+},{
+  "_id": "c5411717-d0b2-47d9-9bc2-52868e796207",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:12.337Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:12.337Z"
+  },
+  "userId": "542835d0-55d0-4c45-8add-3770c4e257aa",
+  "__v": 0
+},{
+  "_id": "7f6058b7-e2f7-4996-a229-25a34e04c2b7",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:12.569Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:12.570Z"
+  },
+  "userId": "bc587144-2650-446f-9042-3717f91d1df9",
+  "__v": 0
+},{
+  "_id": "1b8da1fc-c094-4bbf-9772-2d983e2fde44",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:12.822Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:12.822Z"
+  },
+  "userId": "15739ac9-9ea5-4141-96df-028f11c2a14d",
+  "__v": 0
+},{
+  "_id": "9d4022e1-e219-4330-8ae2-2a01bbd247f9",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:13.055Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:13.055Z"
+  },
+  "userId": "b9c3ebec-2766-4fba-9475-8de9733a7cc9",
+  "__v": 0
+},{
+  "_id": "0a346104-8482-48bb-8449-a45452c39bbe",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:13.285Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:13.285Z"
+  },
+  "userId": "91e35854-edec-45e9-8c5c-bbe56f483668",
+  "__v": 0
+},{
+  "_id": "1d334ef9-314f-438d-ad96-9f344ec4b188",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:13.505Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:13.505Z"
+  },
+  "userId": "eb716a0b-e81b-44ff-aa34-43fd97cda11a",
+  "__v": 0
+},{
+  "_id": "7df733e9-be78-45d1-876a-6e0cc93610a5",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:13.714Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:13.714Z"
+  },
+  "userId": "20bb1ed7-f729-4d7f-b7bd-aa6ec224ca66",
+  "__v": 0
+},{
+  "_id": "9609efa6-1ad9-483e-9abe-36ca9618305c",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:13.943Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:13.944Z"
+  },
+  "userId": "1b3a65f3-b50b-4f5a-a522-1bfdb204cee0",
+  "__v": 0
+},{
+  "_id": "772ae412-0585-49cc-b90f-25a64f7eae45",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:14.181Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:14.181Z"
+  },
+  "userId": "5ecb1f41-ff49-4664-9a6a-6b224ede8d55",
+  "__v": 0
+},{
+  "_id": "2deba46b-a89d-4db9-a313-36f251955830",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:14.398Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:14.398Z"
+  },
+  "userId": "faf1a9ce-5fe1-494c-828e-18870fe7b56e",
+  "__v": 0
+},{
+  "_id": "f23e17c5-42a8-4a88-9caf-47aef90c6196",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:14.645Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:14.645Z"
+  },
+  "userId": "f4c5a098-ead2-4294-b9e6-10126a08d41a",
+  "__v": 0
+},{
+  "_id": "8f303b78-5457-4ea6-b3d2-b7bf4933675f",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:14.887Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:14.887Z"
+  },
+  "userId": "bc4b7801-622c-4a22-9647-3148687af155",
+  "__v": 0
+},{
+  "_id": "48e26cf0-f800-4578-8489-3acc33b47abb",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:15.121Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:15.121Z"
+  },
+  "userId": "5420c787-df63-4b98-8477-16739dafc2e2",
+  "__v": 0
+},{
+  "_id": "95039b06-7a86-4989-97d8-f9316a0896da",
+  "challenge": {},
+  "group": {
+    "approval": {
+      "required": false,
+      "approved": false,
+      "requested": false
+    },
+    "assignedUsers": [],
+    "sharedCompletion": "singleCompletion"
+  },
+  "up": true,
+  "down": true,
+  "counterUp": 0,
+  "counterDown": 0,
+  "frequency": "daily",
+  "history": [],
+  "type": "habit",
+  "notes": "Notes",
+  "tags": [],
+  "value": 0,
+  "priority": 1,
+  "attribute": "str",
+  "byHabitica": false,
+  "text": "Task Description",
+  "reminders": [],
+  "createdAt": {
+    "$date": "2021-12-31T17:13:15.337Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-31T17:13:15.337Z"
+  },
+  "userId": "e04e207b-b2fe-4260-9391-1cfe41cabeac",
+  "__v": 0
+}]

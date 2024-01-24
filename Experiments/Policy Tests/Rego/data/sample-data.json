@@ -1,0 +1,74 @@
+{
+  "data_location": {
+    "Table A": {
+      "datatypeA": { "data": "Data Type A" },
+      "datatypeB": { "data": "Data Type B" },
+      "datatypeC": { "data": "Data Type C" },
+      "datatypeD": { "data": "Data Type D" }
+    }
+  },
+
+  "personal_data_items" : ["Data Type A", "Data Type B", "Data Type D"],
+
+  "data_purposes": [
+    { "data": "Data Type A", "purposes": ["purposeA", "purposeB", "purposeC"] },
+    { "data": "Data Type B", "purposes": ["purposeB", "purposeC"] },
+    { "data": "Data Type C", "purposes": [] }
+  ],
+
+  "maximum_data" : [
+    {"purpose": "purposeA", "data": ["Data Type A"]},
+    {"purpose": "purposeB", "data": ["Data Type A", "Data Type B"]},
+    {"purpose": "purposeC", "data": ["Data Type A", "Data Type B"]}
+  ],
+
+  "operation_purposes" : [
+    {"operation": "operationA", "purpose": "purposeA"},
+    {"operation": "operationB", "purpose": "purposeB"},
+    {"operation": "operationC", "purpose": "purposeC"}
+  ],
+
+  "operation_endpoints": [
+    { "operation": "operationA",  "endpoint": "GET /EndpointA" },
+    { "operation": "operationB",  "endpoint": "POST /EndpointB:variable" },
+    { "operation": "operationC",  "endpoint": "DELETE /EndpointC" },
+    { "operation": "operationAll",  "endpoint": "GET /All" }
+  ],
+
+  "lawfulness_bases" : [
+    {"purpose": "purposeA", "base":  "consent"},
+    {"purpose": "purposeB", "base":  "contract"},
+    {"purpose": "purposeC", "base":  "vital interests"}
+  ],
+
+  "roles" : ["roleA", "roleB", "roleC"],
+
+  "principals": {
+    "principalA": { "principal": "principalA", "role": "roleA" },
+    "principalB": { "principal": "principalB", "role": "roleB" },
+    "principalC": { "principal": "principalC", "role": "roleC", "entity": "controllerA" },
+    "principalDS": { "principal": "principalDS", "role": "roleC", "entity": "data_subjectA" },
+    "principalDS2": { "principal": "principalDS2", "role": "roleC", "entity": "data_subjectB" },
+    "principalDS3": { "principal": "principalDS3", "role": "roleC", "entity": "data_subjectC" },
+    "principalP": { "principal": "principalP", "role": "roleC", "entity": "processorA" },
+    "principalTP": { "principal": "principalTP", "role": "roleC", "entity": "third_partyA" },
+    "principalX": { "principal": "principalX", "role": "roleC", "entity": "entityX" }
+},
+
+  "entities" : {
+    "data_subjectA": { "entity": "data_subjectA", "roles": ["Data Subject"] },
+    "data_subjectB": { "entity": "data_subjectB", "roles": ["Data Subject"] },
+    "data_subjectC": { "entity": "data_subjectC", "roles": ["Data Subject"] },
+    "controllerA": { "entity": "controllerA", "roles": ["Data Controller"] },
+    "processorA": { "entity": "processorA", "roles": ["Data Processor"] },
+    "third_partyA": { "entity": "third_partyA", "roles": ["Third Party"] }
+  },
+
+  "role_operations" : [
+    {"role": "roleA", "operations": ["operationA", "operationC"]},
+    {"role": "roleB", "operations": ["operationB"]},
+    {"role": "roleC", "operations": ["operationA", "operationB", "operationC"]},
+    {"role": "all", "operations": ["operationAll"]}
+  ]
+}
+

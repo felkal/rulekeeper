@@ -1,0 +1,902 @@
+{ "consents": [{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf92",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf98",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf94",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf91",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf97",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beca9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf93",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becaa"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf96",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becab"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf95",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becac"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf99",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becad"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9c",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becae"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9d",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becaf"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9f",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb0"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9e",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb1"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9b",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb2"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bf9a",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb3"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa4",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa5",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becb9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa7",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becba"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa6",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becbb"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa8",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becbc"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfab",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becbd"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfaa",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becbe"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfa9",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becbf"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfac",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc0"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfad",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc1"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfaf",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc2"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfae",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc3"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb4",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb5",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becc9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb6",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becca"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb7",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beccb"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb8",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beccc"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfb9",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beccd"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfba",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becce"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfbb",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beccf"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfbc",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd0"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfbd",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd1"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfbe",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd2"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfbf",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd3"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc4",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc7",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc6",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becd9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc5",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becda"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc8",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becdb"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfcc",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becdc"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc9",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becdd"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfca",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becde"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfce",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becdf"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfcb",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece0"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfcd",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece1"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfcf",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece2"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece3"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd5",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd4",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd6",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bece9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfc1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becea"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd7",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beceb"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd8",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becec"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfd9",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49beced"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfda",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becee"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfdb",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becef"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfdc",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf0"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfdf",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf1"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfdd",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf2"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfde",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf3"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf4"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf5"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf6"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe6",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf7"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf8"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe5",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becf9"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe7",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becfa"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe4",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becfb"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe8",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becfc"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfea",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becfd"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfeb",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becfe"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfe9",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49becff"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfec",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed00"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfed",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed01"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfee",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed02"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bfef",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed03"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bff1",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed04"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bff2",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed05"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bff0",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed06"
+  },
+  "dataSubject": "623f4ed20a73c41753d6bff3",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+},{
+  "_id": {
+    "$oid": "624039242f6b924ce49bed07"
+  },
+  "dataSubject": "admin@amazona.com",
+  "purposes": [
+    "user management",
+    "article management"
+  ]
+}]
+}

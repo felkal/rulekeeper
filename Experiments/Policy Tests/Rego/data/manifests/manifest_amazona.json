@@ -1,0 +1,493 @@
+{
+   "data_items": [
+      "user id",
+      "user name",
+      "user email",
+      "user password",
+      "user admin flag",
+      "product id",
+      "product name",
+      "product image",
+      "product brand",
+      "product price",
+      "product category",
+      "product stock",
+      "product description",
+      "product rating",
+      "product num of reviews",
+      "reviewer name",
+      "review rating",
+      "review comment",
+      "order user",
+      "item name",
+      "item quantity",
+      "item image",
+      "item price",
+      "item",
+      "shipping address",
+      "shipping city",
+      "shipping postal code",
+      "shipping country",
+      "payment method",
+      "items price",
+      "tax price",
+      "shipping price",
+      "total price",
+      "payment status",
+      "payment date",
+      "shipping status",
+      "shipping date"
+   ],
+   "personal_data_items": [
+      "user id",
+      "user name",
+      "user email",
+      "user password",
+      "user admin flag",
+      "reviewer name",
+      "review rating",
+      "review comment",
+      "order user",
+      "shipping address",
+      "shipping city",
+      "shipping postal code",
+      "shipping country"
+   ],
+   "purposes": [
+      "account management",
+      "product management",
+      "order management"
+   ],
+   "data_purposes": [
+      {
+         "data": "user id",
+         "purposes": [
+            "account management"
+         ]
+      },
+      {
+         "data": "user name",
+         "purposes": [
+            "account management"
+         ]
+      },
+      {
+         "data": "user email",
+         "purposes": [
+            "account management"
+         ]
+      },
+      {
+         "data": "user password",
+         "purposes": [
+            "account management"
+         ]
+      },
+      {
+         "data": "user admin flag",
+         "purposes": [
+            "account management"
+         ]
+      },
+      {
+         "data": "reviewer name",
+         "purposes": [
+            "product management"
+         ]
+      },
+      {
+         "data": "review rating",
+         "purposes": [
+            "product management"
+         ]
+      },
+      {
+         "data": "review comment",
+         "purposes": [
+            "product management"
+         ]
+      },
+      {
+         "data": "order user",
+         "purposes": [
+            "product management"
+         ]
+      },
+      {
+         "data": "shipping address",
+         "purposes": [
+            "order management"
+         ]
+      },
+      {
+         "data": "shipping city",
+         "purposes": [
+            "order management"
+         ]
+      },
+      {
+         "data": "shipping postal code",
+         "purposes": [
+            "order management"
+         ]
+      },
+      {
+         "data": "shipping country",
+         "purposes": [
+            "order management"
+         ]
+      }
+   ],
+   "maximum-data": [
+      {
+         "purpose": "account management",
+         "data": [
+            "user id",
+            "user name",
+            "user email",
+            "user password",
+            "user admin flag"
+         ]
+      },
+      {
+         "purpose": "product management",
+         "data": [
+            "reviewer name",
+            "review rating",
+            "review comment",
+            "order user"
+         ]
+      },
+      {
+         "purpose": "order management",
+         "data": [
+            "shipping address",
+            "shipping city",
+            "shipping postal code",
+            "shipping country"
+         ]
+      }
+   ],
+   "data-location": {
+      "users": {
+         "id": {
+            "data": "user id"
+         },
+         "name": {
+            "data": "user name"
+         },
+         "email": {
+            "data": "user email"
+         },
+         "password": {
+            "data": "user password"
+         },
+         "isAdmin": {
+            "data": "user admin flag"
+         }
+      },
+      "products": {
+         "id": {
+            "data": "product id"
+         },
+         "name": {
+            "data": "product name"
+         },
+         "image": {
+            "data": "product image"
+         },
+         "brand": {
+            "data": "product brand"
+         },
+         "price": {
+            "data": "product price"
+         },
+         "category": {
+            "data": "product category"
+         },
+         "countInStock": {
+            "data": "product stock"
+         },
+         "description": {
+            "data": "product description"
+         },
+         "rating": {
+            "data": "product rating"
+         },
+         "numReviews": {
+            "data": "product num of reviews"
+         },
+         "reviews.name": {
+            "data": "reviewer name"
+         },
+         "reviews.rating": {
+            "data": "review rating"
+         },
+         "reviews.comment": {
+            "data": "review comment"
+         }
+      },
+      "orders": {
+         "user": {
+            "data": "order user"
+         },
+         "orderItems.name": {
+            "data": "item name"
+         },
+         "orderItems.qty": {
+            "data": "item quantity"
+         },
+         "orderItems.image": {
+            "data": "item image"
+         },
+         "orderItems.price": {
+            "data": "item price"
+         },
+         "orderItems.product": {
+            "data": "item"
+         },
+         "shipping.address": {
+            "data": "shipping address"
+         },
+         "shipping.city": {
+            "data": "shipping city"
+         },
+         "shipping.postalCode": {
+            "data": "shipping postal code"
+         },
+         "shipping.country": {
+            "data": "shipping country"
+         },
+         "payment.paymentMethod": {
+            "data": "payment method"
+         },
+         "itemsPrice": {
+            "data": "items price"
+         },
+         "taxPrice": {
+            "data": "tax price"
+         },
+         "shippingPrice": {
+            "data": "shipping price"
+         },
+         "totalPrice": {
+            "data": "total price"
+         },
+         "isPaid": {
+            "data": "payment status"
+         },
+         "paidAt": {
+            "data": "payment date"
+         },
+         "isDelivered": {
+            "data": "shipping status"
+         },
+         "deliveredAt": {
+            "data": "shipping date"
+         }
+      }
+   }
+},
+"operations": [
+   "register user",
+   "signin",
+   "update user",
+   "get products",
+   "create product",
+   "get product",
+   "update product",
+   "remove product",
+   "review product",
+   "get orders",
+   "order product",
+   "get my orders",
+   "get order",
+   "remove order",
+   "pay order"
+],
+"operation_purposes": [
+   {
+      "operation": "register user",
+      "purpose": "account management"
+   },
+   {
+      "operation": "signin",
+      "purpose": "account management"
+   },
+   {
+      "operation": "update user",
+      "purpose": "account management"
+   },
+   {
+      "operation": "get products",
+      "purpose": "product management"
+   },
+   {
+      "operation": "get product",
+      "purpose": "product management"
+   },
+   {
+      "operation": "update product",
+      "purpose": "product management"
+   },
+   {
+      "operation": "remove product",
+      "purpose": "product management"
+   },
+   {
+      "operation": "review product",
+      "purpose": "product management"
+   },
+   {
+      "operation": "get orders",
+      "purpose": "order management"
+   },
+   {
+      "operation": "order product",
+      "purpose": "order management"
+   },
+   {
+      "operation": "get my orders",
+      "purpose": "order management"
+   },
+   {
+      "operation": "get order",
+      "purpose": "order management"
+   },
+   {
+      "operation": "remove order",
+      "purpose": "order management"
+   },
+   {
+      "operation": "pay order",
+      "purpose": "order management"
+   }
+],
+"roles": [
+   "user",
+   "admin"
+],
+"role_operations": [
+   {
+      "role": "user",
+      "operations": [
+         "review product",
+         "get orders",
+         "order product",
+         "get my orders",
+         "get order",
+         "pay order"
+      ]
+   },
+   {
+      "role": "admin",
+      "operations": [
+         "update user",
+         "create product",
+         "update product",
+         "remove product",
+         "remove order"
+      ]
+   },
+   {
+      "role": "all",
+      "operations": [
+         "register user",
+         "signin",
+         "get products",
+         "get product",
+         "get paypal config"
+      ]
+   }
+],
+"operation_endpoints": [
+   {
+      "operation": "register user",
+      "endpoint": "POST /api/users/register"
+   },
+   {
+      "operation": "signin",
+      "endpoint": "POST /api/users/signin"
+   },
+   {
+      "operation": "update user",
+      "endpoint": "PUT /api/users/:id"
+   },
+   {
+      "operation": "get products",
+      "endpoint": "GET /api/products"
+   },
+   {
+      "operation": "create product",
+      "endpoint": "POST /api/products"
+   },
+   {
+      "operation": "get product",
+      "endpoint": "GET /api/products/:id"
+   },
+   {
+      "operation": "update product",
+      "endpoint": "PUT /api/products/:id"
+   },
+   {
+      "operation": "remove product",
+      "endpoint": "DELETE /api/products/:id"
+   },
+   {
+      "operation": "review product",
+      "endpoint": "POST /api/products/:id/reviews"
+   },
+   {
+      "operation": "get orders",
+      "endpoint": "GET /api/orders"
+   },
+   {
+      "operation": "order product",
+      "endpoint": "POST /api/orders"
+   },
+   {
+      "operation": "get my orders",
+      "endpoint": "GET /api/orders/mine"
+   },
+   {
+      "operation": "get order",
+      "endpoint": "GET /api/orders/:id"
+   },
+   {
+      "operation": "remove order",
+      "endpoint": "DELETE /api/orders/:id"
+   },
+   {
+      "operation": "pay order",
+      "endpoint": "PUT /api/orders/:id/pay"
+   }
+],
+"lawfulness_bases": [
+   {
+      "purpose": "account management",
+      "base": "consent"
+   },
+   {
+      "purpose": "product management",
+      "base": "consent"
+   },
+   {
+      "purpose": "order management",
+      "base": "consent"
+   }
+],
+"personal_data_tables": [
+   {
+      "table": "users",
+      "column": "name"
+   },
+   {
+      "table": "products",
+      "column": "reviews.name"
+   },
+   {
+      "table": "orders",
+      "column": "user"
+   }
+]
+}

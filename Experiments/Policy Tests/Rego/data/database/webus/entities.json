@@ -1,0 +1,5 @@
+[
+  { "entity": "Some User", "roles": ["Data Subject"] },
+  { "entity": "Some User No Marketing", "roles": ["Data Subject"] },
+  { "entity": "Some User No Consent", "roles": ["Data Subject"] }
+]

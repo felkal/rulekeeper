@@ -1,0 +1,4 @@
+[
+  { "dataSubject": "Some User", "purposes": ["ticket management", "marketing"] },
+  { "dataSubject": "Some User No Marketing", "purposes": ["ticket management"] }
+]

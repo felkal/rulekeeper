@@ -1,0 +1,413 @@
+{
+  "data_items": [
+    "patient name",
+    "patient cc",
+    "patient e-mail",
+    "patient analysis",
+    "laboratory address"
+  ],
+  "personal_data_items": [
+    "patient name",
+    "patient cc",
+    "patient e-mail",
+    "patient analysis"
+  ],
+  "purposes": [
+    "clinical analysis",
+    "marketing"
+  ],
+  "data_purposes": [
+    {
+      "data": "patient name",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient cc",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient analysis",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient e-mail",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    }
+  ],
+  "maximum_data": [
+    {
+      "purpose": "clinical analysis",
+      "data": [
+        "patient name",
+        "patient cc",
+        "patient analysis",
+        "patient e-mail"
+      ]
+    },
+    {
+      "purpose": "marketing",
+      "data": [
+        "patient e-mail"
+      ]
+    }
+  ],
+  "data_location": {
+    "patients": {
+      "personal_data.full_name": { "data": "patient name" },
+      "citizencard": { "data": "patient cc" },
+      "contact_info.e-mail": { "data": "patient e-mail" },
+      "analysis": { "data": "patient analysis" }
+    },
+    "info": {
+      "address": { "data": "laboratory address" }
+    }
+  },
+  "operations": [
+    "register new patient",
+    "request analysis",
+    "read requisition",
+    "insert analysis result",
+    "read analysis result",
+    "authenticate",
+    "read patient data",
+    "get available results",
+    "update patient data",
+    "send newsletter"
+  ],
+  "operation_purposes": [
+    {
+      "operation": "register new patient",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "request analysis",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read requisition",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "insert analysis result",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read analysis result",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read patient data",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "get available results",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "update patient data",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "send newsletter",
+      "purpose": "marketing"
+    }
+  ],
+  "roles": [
+    "patient",
+    "receptionist",
+    "analist"
+  ],
+  "role_operations": [
+    {
+      "role": "receptionist",
+      "operations": [
+        "register new patient",
+        "request analysis",
+        "read analysis result",
+        "read patient data",
+        "get available results",
+        "update patient data",
+        "send newsletter"
+      ]
+    },
+    {
+      "role": "analist",
+      "operations": [
+        "read requisition",
+        "insert analysis result"
+      ]
+    },
+    {
+      "role": "patient",
+      "operations": [
+        "read patient data",
+        "update patient data"
+      ]
+    },
+    {
+      "role": "all",
+      "operations": [
+        "authenticate"
+      ]
+    }
+  ],
+  "operation_endpoints": [
+    {
+      "operation": "register new patient",
+      "endpoint": "POST /patients/register"
+    },
+    {
+      "operation": "request analysis",
+      "endpoint": "POST /patients/:patientId/requisitions"
+    },
+    {
+      "operation": "read requisition",
+      "endpoint": "GET /patients/:patientId/requisitions/:requisitionId"
+    },
+    {
+      "operation": "insert analysis result",
+      "endpoint": "POST /patients/:patientId/results"
+    },
+    {
+      "operation": "read analysis result",
+      "endpoint": "GET /patients/:patientId/results/:resultId"
+    },
+    {
+      "operation": "authenticate",
+      "endpoint": "POST /authenticate"
+    },
+    {
+      "operation": "read patient data",
+      "endpoint": "GET /patients/:patientId"
+    },
+    {
+      "operation": "get available results",
+      "endpoint": "GET /patients/available"
+    },
+    {
+      "operation": "update patient data",
+      "endpoint": "POST /patients/:patientId"
+    },
+    {
+      "operation": "send newsletter",
+      "endpoint": "GET /newsletter"
+    }
+  ],
+  "lawfulness_bases": [
+    {
+      "purpose": "clinical analysis",
+      "base": "contract"
+    },
+    {
+      "purpose": "marketing",
+      "base": "consent"
+    }
+  ],
+  "personal_data_tables": [
+    {
+      "table": "patients",
+      "column": "personal_data.full_name"
+    }
+  ],
+  "principals": {
+    "alice": {
+      "role": "receptionist",
+      "entity": "LEB"
+    },
+    "bob": {
+      "role": "analist",
+      "entity": "LEB"
+    },
+    "charles": {
+      "role": "patient",
+      "entity": "12340001"
+    },
+    "patient2": 
+    {
+      "role": "patient",
+      "entity": "Patient 2"
+    },
+    "patient3": {
+      "role": "patient",
+      "entity": "Patient 3"
+    },
+    "patient4": {
+      "role": "patient",
+      "entity": "Patient 4"
+    },
+    "patient5": {
+      "role": "patient",
+      "entity": "Patient 5"
+    },
+    "patient6": {
+      "role": "patient",
+      "entity": "Patient 6"
+    },
+    "patient7": {
+      "role": "patient",
+      "entity": "Patient 7"
+    },
+    "patient8": {
+      "role": "patient",
+      "entity": "Patient 8"
+    },
+    "patient9": {
+      "role": "patient",
+      "entity": "Patient 9"
+    },
+    "patient10": {
+      "role": "patient",
+      "entity": "Patient 10"
+    }
+  },
+  "entities": {
+   "LEB": {
+      "entity": "LEB",
+      "roles": [
+        "Data Processor",
+        "Data Controller"
+      ]
+    },
+    "12340001": {
+      "entity": "12340001",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 2": {
+      "entity": "Patient 2",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 3": {
+      "entity": "Patient 3",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 4": {
+      "entity": "Patient 4",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 5": {
+      "entity": "Patient 5",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 6": {
+      "entity": "Patient 6",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 7": {
+      "entity": "Patient 7",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 8": {
+      "entity": "Patient 8",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 9": {
+      "entity": "Patient 9",
+      "roles": [
+        "Data Subject"
+      ]
+    },
+    "Patient 10": {
+      "entity": "Patient 10",
+      "roles": [
+        "Data Subject"
+      ]
+    }
+  },
+  "consents": {
+    "12340001": {
+      "dataSubject": "12340001",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 2": {
+      "dataSubject": "Patient 2",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 3": {
+      "dataSubject": "Patient 3",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 4": {
+      "dataSubject": "Patient 4",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 5": {
+      "dataSubject": "Patient 5",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 6": {
+      "dataSubject": "Patient 6",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 7": {
+      "dataSubject": "Patient 7",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 8": {
+      "dataSubject": "Patient 8",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 9": {
+      "dataSubject": "Patient 9",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    },
+    "Patient 10": {
+      "dataSubject": "Patient 10",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    }
+  }
+}

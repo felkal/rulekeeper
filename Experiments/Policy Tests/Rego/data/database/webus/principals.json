@@ -1,0 +1,5 @@
+[
+  { "principal": "some-user", "entity": "Some User"  },
+  { "principal": "some-user-no-marketing", "entity": "Some User No Marketing"  },
+  { "principal": "some-user-no-consent", "entity": "Some User No Consent"  }
+]

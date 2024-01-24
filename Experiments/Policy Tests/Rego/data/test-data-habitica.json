@@ -1,0 +1,441 @@
+{
+  "data_items": [
+    "task type",
+    "task text",
+    "task tags",
+    "task user ID",
+    "api token",
+    "e-mail",
+    "username",
+    "contributor level",
+    "admin flag",
+    "newsposter flag",
+    "sudo flag",
+    "contributor text",
+    "contributions",
+    "balance",
+    "party invitations",
+    "id of the invited parties",
+    "guilds"
+  ],
+  "personal_data_items": [
+    "task user ID",
+    "e-mail",
+    "username",
+    "contributor level",
+    "admin flag",
+    "newsposter flag",
+    "sudo flag",
+    "contributor text",
+    "contributions",
+    "balance",
+    "party invitations",
+    "id of the invited parties",
+    "guilds"
+  ],
+  "purposes": [
+    "task management",
+    "member management",
+    "group management"
+  ],
+  "data_purposes": [
+    {
+      "data": "task user ID",
+      "purposes": [
+        "task management"
+      ]
+    },
+    {
+      "data": "api token",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "e-mail",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "username",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "contributor level",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "admin flag",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "newsposter flag",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "sudo flag",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "contributor text",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "contributions",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "balance",
+      "purposes": [
+        "member management",
+        "task management"
+      ]
+    },
+    {
+      "data": "party invitations",
+      "purposes": [
+        "member management",
+        "group management",
+        "task management"
+      ]
+    },
+    {
+      "data": "id of the invited parties",
+      "purposes": [
+        "member management",
+        "group management",
+        "task management"
+      ]
+    },
+    {
+      "data": "guilds",
+      "purposes": [
+        "member management",
+        "group management",
+        "task management"
+      ]
+    }
+  ],
+  "maximum_data": [
+    {
+      "purpose": "member management",
+      "data": [
+        "api token",
+        "e-mail",
+        "username",
+        "contributor level",
+        "admin flag",
+        "newsposter flag",
+        "sudo flag",
+        "contributor text",
+        "contributions",
+        "balance",
+        "party invitations",
+        "id of the invited parties",
+        "guilds"
+      ]
+    },
+    {
+      "purpose": "group management",
+      "data": [
+        "party invitations",
+        "id of the invited parties",
+        "guilds"
+      ]
+    },
+    {
+      "purpose": "task management",
+      "data": [
+        "task user ID",
+        "api token",
+        "e-mail",
+        "username",
+        "contributor level",
+        "admin flag",
+        "newsposter flag",
+        "sudo flag",
+        "contributor text",
+        "contributions",
+        "balance",
+        "party invitations",
+        "id of the invited parties",
+        "guilds"
+      ]
+    }
+  ],
+  "data_location": [
+    {
+      "data": "task type",
+      "table": "tasks",
+      "column": "type"
+    },
+    {
+      "data": "task text",
+      "table": "tasks",
+      "column": "text"
+    },
+    {
+      "data": "task tags",
+      "table": "tasks",
+      "column": "tags"
+    },
+    {
+      "data": "task user ID",
+      "table": "tasks",
+      "column": "userId"
+    },
+    {
+      "data": "api token",
+      "table": "users",
+      "column": "auth.apiToken"
+    },
+    {
+      "data": "e-mail",
+      "table": "users",
+      "column": "auth.local.email"
+    },
+    {
+      "data": "username",
+      "table": "users",
+      "column": "auth.local.username"
+    },
+    {
+      "data": "contributor level",
+      "table": "users",
+      "column": "contributor.level"
+    },
+    {
+      "data": "admin flag",
+      "table": "users",
+      "column": "contributor.admin"
+    },
+    {
+      "data": "newsposter flag",
+      "table": "users",
+      "column": "contributor.newsPoster"
+    },
+    {
+      "data": "sudo flag",
+      "table": "users",
+      "column": "contributor.sudo"
+    },
+    {
+      "data": "contributor text",
+      "table": "users",
+      "column": "contributor.text"
+    },
+    {
+      "data": "contributions",
+      "table": "users",
+      "column": "contributor.contributions"
+    },
+    {
+      "data": "balance",
+      "table": "users",
+      "column": "balance"
+    },
+    {
+      "data": "party invitations",
+      "table": "users",
+      "column": "invitations.party"
+    },
+    {
+      "data": "id of the invited parties",
+      "table": "users",
+      "column": "invitations.parties.id"
+    },
+    {
+      "data": "guilds",
+      "table": "users",
+      "column": "guilds"
+    }
+  ],
+  "operations": [
+    "create a new task",
+    "get user tasks",
+    "score a task",
+    "create a new group",
+    "invite member to group",
+    "register new user",
+    "get user",
+    "resets player day",
+    "login"
+  ],
+  "operation_purposes": [
+    {
+      "operation": "create a new task",
+      "purpose": "task management"
+    },
+    {
+      "operation": "get user tasks",
+      "purpose": "task management"
+    },
+    {
+      "operation": "score a task",
+      "purpose": "task management"
+    },
+    {
+      "operation": "create a new group",
+      "purpose": "group management"
+    },
+    {
+      "operation": "invite member to group",
+      "purpose": "group management"
+    },
+    {
+      "operation": "register new user",
+      "purpose": "member management"
+    },
+    {
+      "operation": "get user",
+      "purpose": "member management"
+    },
+    {
+      "operation": "resets player day",
+      "purpose": "member management"
+    }
+  ],
+  "roles": [
+    "member",
+    "news poster",
+    "admin",
+    "sudo"
+  ],
+  "role_operations": [
+    {
+      "role": "admin",
+      "operations": [
+        "register new user",
+        "resets player day",
+        "get user"
+      ]
+    },
+    {
+      "role": "member",
+      "operations": [
+        "get user",
+        "create a new task",
+        "get user tasks"
+      ]
+    },
+    {"role":  "all",
+      "operations": ["login"] }
+  ],
+  "operation_endpoints": [
+    {
+      "operation": "create a new task",
+      "endpoint": "POST /tasks/user"
+    },
+    {
+      "operation": "get user tasks",
+      "endpoint": "GET /tasks/user"
+    },
+    {
+      "operation": "score a task",
+      "endpoint": "POST /tasks/:taskId/score/:direction"
+    },
+    {
+      "operation": "create a new group",
+      "endpoint": "POST /groups"
+    },
+    {
+      "operation": "invite member to group",
+      "endpoint": "POST /groups/:groupId/invite"
+    },
+    {
+      "operation": "register new user",
+      "endpoint": "POST /user/auth/local/register"
+    },
+    {
+      "operation": "get user",
+      "endpoint": "GET /user"
+    },
+    {
+      "operation": "resets player day",
+      "endpoint": "POST /cron/:user"
+    },
+    {
+      "operation": "login",
+      "endpoint": "POST /user/auth/local/login"
+    }
+  ],
+  "entities": {
+    "Habitica": {
+      "entity": "Habitica",
+      "roles": [
+        "Data Controller", "Data Processor"
+      ]
+    },
+    "Bob": {
+      "entity": "Bob",
+      "roles": [
+        "Data Subject"
+      ]
+    }
+  },
+  "principals": {
+    "alice": {
+      "principal": "alice",
+      "entity": "Habitica",
+      "role": "admin"
+    },
+    "bob": {
+      "principal": "bob",
+      "entity": "Bob",
+      "role": "member"
+    }
+  },
+  "lawfulness_bases": [
+    {
+      "purpose": "task management",
+      "base": "consent"
+    },
+    {
+      "purpose": "member management",
+      "base": "consent"
+    },
+    {
+      "purpose": "group management",
+      "base": "consent"
+    }
+  ],
+  "consents": {
+     "Bob": {
+      "dataSubject": "Bob",
+      "purposes": [
+        "task management",
+        "member management"
+      ]
+    }
+  },
+  "personal_data_tables": [
+    {
+      "table": "users",
+      "column": "profile.name"
+    }
+  ]
+}
