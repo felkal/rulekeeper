@@ -17,14 +17,14 @@ module.exports = {
    * Initializes the event manager - connects to the manager and sets the events.
    */
   init() {
-    const url = process.env.SERVER_URL;
+    const url = 'https://localhost:3031';
     if (!url) {
       logger.error('RuleKeeper Manager URL invalid.', '[Event Manager');
       return;
     }
     const certificate = fs.readFileSync(path.join(__dirname, '../config/server.cert'));
     /* Tries to connect securely to the manager socket */
-    socketIO = io.connect(process.env.SERVER_URL, { secure: true, ca: certificate, rejectUnauthorized: false });
+    socketIO = io.connect('https://localhost:3031', { secure: true, ca: certificate, rejectUnauthorized: false });
     if (!socketIO || !socketIO.io) logger.error('Unable to connect to RuleKeeper Manager', '[Event Manager');
     else {
       socketIO.on('connect', () => {
