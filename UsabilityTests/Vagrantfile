@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
             pip3 install neo4j
             # test cases
 	        wget https://raw.githubusercontent.com/rulekeeper/rulekeeper/supplementary-material/Usability%20Tests/1d19019a9a1358794b.zip
-            unzip -P 9e2acb2a3731cdf84111a1e1c5b3c73 1d19019a9a1358794b.zip -d tests
+            unzip 1d19019a9a1358794b.zip -d tests
 	        sudo chown -R vagrant tests/
             cd tests
             ## lab
