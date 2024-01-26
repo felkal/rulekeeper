@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo "Installing npm for RuleKeeper..."
 
 echo "Installing Parser ..."
