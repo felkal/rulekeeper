@@ -39,7 +39,7 @@ if [ -f "$file_path" ]; then
     echo "File already exists locally: $file_path"
 else
     echo "Downloading OPA from github..."
-    wget -O $file_path $github_repo 2>/dev/null
+    wget -O $file_path $github_repo
     echo "Finished"
 fi
 
