@@ -1,0 +1,221 @@
+{
+  "data_items": [
+    "patient name",
+    "patient cc",
+    "patient e-mail",
+    "patient analysis",
+    "laboratory address"
+  ],
+  "personal_data_items": [
+    "patient name",
+    "patient cc",
+    "patient e-mail",
+    "patient analysis"
+  ],
+  "purposes": [
+    "clinical analysis",
+    "marketing"
+  ],
+  "data_purposes": [
+    {
+      "data": "patient name",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient cc",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient analysis",
+      "purposes": [
+        "clinical analysis"
+      ]
+    },
+    {
+      "data": "patient e-mail",
+      "purposes": [
+        "clinical analysis",
+        "marketing"
+      ]
+    }
+  ],
+  "maximum_data": [
+    {
+      "purpose": "clinical analysis",
+      "data": [
+        "patient name",
+        "patient cc",
+        "patient analysis",
+        "patient e-mail"
+      ]
+    },
+    {
+      "purpose": "marketing",
+      "data": [
+        "patient e-mail"
+      ]
+    }
+  ],
+  "data_location": {
+    "patients": {
+      "personal_data.full_name": { "data": "patient name" },
+      "citizencard": { "data": "patient cc" },
+      "contact_info.e-mail": { "data": "patient e-mail" },
+      "analysis": { "data": "patient analysis" }
+    },
+    "info": {
+      "address": { "data": "laboratory address" }
+    }
+  },
+  "operations": [
+    "register new patient",
+    "request analysis",
+    "read requisition",
+    "insert analysis result",
+    "read analysis result",
+    "authenticate",
+    "read patient data",
+    "get available results",
+    "update patient data",
+    "send newsletter"
+  ],
+  "operation_purposes": [
+    {
+      "operation": "register new patient",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "request analysis",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read requisition",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "insert analysis result",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read analysis result",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "read patient data",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "get available results",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "update patient data",
+      "purpose": "clinical analysis"
+    },
+    {
+      "operation": "send newsletter",
+      "purpose": "marketing"
+    }
+  ],
+  "roles": [
+    "patient",
+    "receptionist",
+    "analist"
+  ],
+  "role_operations": [
+    {
+      "role": "receptionist",
+      "operations": [
+        "register new patient",
+        "request analysis",
+        "read analysis result",
+        "read patient data",
+        "get available results",
+        "update patient data",
+        "send newsletter"
+      ]
+    },
+    {
+      "role": "analist",
+      "operations": [
+        "read requisition",
+        "insert analysis result"
+      ]
+    },
+    {
+      "role": "patient",
+      "operations": [
+        "read patient data",
+        "update patient data"
+      ]
+    },
+    {
+      "role": "all",
+      "operations": [
+        "authenticate"
+      ]
+    }
+  ],
+  "operation_endpoints": [
+    {
+      "operation": "register new patient",
+      "endpoint": "POST /patients/register"
+    },
+    {
+      "operation": "request analysis",
+      "endpoint": "POST /patients/:patientId/requisitions"
+    },
+    {
+      "operation": "read requisition",
+      "endpoint": "GET /patients/:patientId/requisitions/:requisitionId"
+    },
+    {
+      "operation": "insert analysis result",
+      "endpoint": "POST /patients/:patientId/results"
+    },
+    {
+      "operation": "read analysis result",
+      "endpoint": "GET /patients/:patientId/results/:resultId"
+    },
+    {
+      "operation": "authenticate",
+      "endpoint": "POST /authenticate"
+    },
+    {
+      "operation": "read patient data",
+      "endpoint": "GET /patients/:patientId"
+    },
+    {
+      "operation": "get available results",
+      "endpoint": "GET /patients/available"
+    },
+    {
+      "operation": "update patient data",
+      "endpoint": "POST /patients/:patientId"
+    },
+    {
+      "operation": "send newsletter",
+      "endpoint": "GET /newsletter"
+    }
+  ],
+  "lawfulness_bases": [
+    {
+      "purpose": "clinical analysis",
+      "base": "contract"
+    },
+    {
+      "purpose": "marketing",
+      "base": "consent"
+    }
+  ],
+  "personal_data_tables": [
+    {
+      "table": "patients",
+      "column": "citizencard"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+   "data_items": [
+      "user id",
+      "username",
+      "user email",
+      "user bio",
+      "user image",
+      "user favorites",
+      "user following",
+      "hash",
+      "salt",
+      "comment body",
+      "comment author",
+      "comment article",
+      "article slug",
+      "article title",
+      "article description",
+      "article body",
+      "article favourites",
+      "article comments",
+      "article tags",
+      "article author"
+   ],
+   "personal_data_items": [
+      "user id",
+      "username",
+      "user email",
+      "user bio",
+      "user image",
+      "user favorites",
+      "user following",
+      "hash",
+      "salt",
+      "comment author",
+      "article author"
+   ],
+   "purposes": [
+      "user management",
+      "article management"
+   ],
+   "data_purposes": [
+      {
+         "data": "user id",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "username",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "user email",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "user bio",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "user image",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "user favorites",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "user following",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "hash",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "salt",
+         "purposes": [
+            "user management"
+         ]
+      },
+      {
+         "data": "comment author",
+         "purposes": [
+            "article management"
+         ]
+      },
+      {
+         "data": "article author",
+         "purposes": [
+            "article management"
+         ]
+      }
+   ],
+   "maximum-data": [
+      {
+         "purpose": "user management",
+         "data": [
+            "user id",
+            "username",
+            "user email",
+            "user bio",
+            "user image",
+            "user favorites",
+            "user following",
+            "hash",
+            "salt"
+         ]
+      },
+      {
+         "purpose": "article management",
+         "data": [
+            "comment author",
+            "article author"
+         ]
+      }
+   ],
+   "data-location": {
+      "users": {
+         "_id": {
+            "data": "user id"
+         },
+         "username": {
+            "data": "username"
+         },
+         "email": {
+            "data": "user email"
+         },
+         "bio": {
+            "data": "user bio"
+         },
+         "image": {
+            "data": "user image"
+         },
+         "favorites": {
+            "data": "user favorites"
+         },
+         "following": {
+            "data": "user following"
+         },
+         "hash": {
+            "data": "hash"
+         },
+         "salt": {
+            "data": "salt"
+         }
+      },
+      "comments": {
+         "body": {
+            "data": "comment body"
+         },
+         "author": {
+            "data": "comment author"
+         },
+         "article": {
+            "data": "comment article"
+         }
+      },
+      "articles": {
+         "slug": {
+            "data": "article slug"
+         },
+         "title": {
+            "data": "article title"
+         },
+         "description": {
+            "data": "article description"
+         },
+         "body": {
+            "data": "article body"
+         },
+         "favouritesCount": {
+            "data": "article favourites"
+         },
+         "comments": {
+            "data": "article comments"
+         },
+         "tagList": {
+            "data": "article tags"
+         },
+         "author": {
+            "data": "article author"
+         }
+      }
+   },
+   "operations": [
+      "get user",
+      "update user",
+      "login",
+      "get profile",
+      "follow user",
+      "unfollow user",
+      "get all articles",
+      "get feed",
+      "submit article",
+      "get article",
+      "update article",
+      "delete article",
+      "favorite article",
+      "unfavorite article",
+      "get article comments",
+      "comment article",
+      "delete comment",
+      "get all tags"
+   ],
+   "operation_purposes": [
+      {
+         "operation": "get user",
+         "purpose": "user management"
+      },
+      {
+         "operation": "update user",
+         "purpose": "user management"
+      },
+      {
+         "operation": "get profile",
+         "purpose": "user management"
+      },
+      {
+         "operation": "follow user",
+         "purpose": "user management"
+      },
+      {
+         "operation": "unfollow user",
+         "purpose": "user management"
+      },
+      {
+         "operation": "get all articles",
+         "purpose": "article management"
+      },
+      {
+         "operation": "get feed",
+         "purpose": "article management"
+      },
+      {
+         "operation": "submit article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "get article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "update article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "delete article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "favorite article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "unfavorite article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "get article comments",
+         "purpose": "article management"
+      },
+      {
+         "operation": "comment article",
+         "purpose": "article management"
+      },
+      {
+         "operation": "delete comment",
+         "purpose": "article management"
+      }
+   ],
+   "roles": [
+      "user"
+   ],
+   "role_operations": [
+      {
+         "role": "user",
+         "operations": [
+            "get user",
+            "update user",
+            "get profile",
+            "follow user",
+            "unfollow user",
+            "get feed",
+            "submit article",
+            "update article",
+            "delete article",
+            "favorite article",
+            "unfavorite article",
+            "comment article",
+            "delete comment"
+         ]
+      },
+      {
+         "role": "all",
+         "operations": [
+            "login",
+            "create user",
+            "get all articles",
+            "get article",
+            "get article comments",
+            "get all tags"
+         ]
+      }
+   ],
+   "operation_endpoints": [
+      {
+         "operation": "get user",
+         "endpoint": "GET /api/user"
+      },
+      {
+         "operation": "update user",
+         "endpoint": "PUT /api/user"
+      },
+      {
+         "operation": "login",
+         "endpoint": "POST /api/users/login"
+      },
+      {
+         "operation": "get profile",
+         "endpoint": "GET /api/profiles/:username"
+      },
+      {
+         "operation": "follow user",
+         "endpoint": "POST /api/profiles/:username/follow"
+      },
+      {
+         "operation": "unfollow user",
+         "endpoint": "DELETE /api/profiles/:username/follow"
+      },
+      {
+         "operation": "get all articles",
+         "endpoint": "GET /api/articles"
+      },
+      {
+         "operation": "get feed",
+         "endpoint": "GET /api/articles/feed"
+      },
+      {
+         "operation": "submit article",
+         "endpoint": "POST /api/articles"
+      },
+      {
+         "operation": "get article",
+         "endpoint": "GET /api/articles/:article"
+      },
+      {
+         "operation": "update article",
+         "endpoint": "PUT /api/articles/:article"
+      },
+      {
+         "operation": "delete article",
+         "endpoint": "DELETE /api/articles/:article"
+      },
+      {
+         "operation": "favorite article",
+         "endpoint": "POST /api/articles/:article/favorite"
+      },
+      {
+         "operation": "unfavorite article",
+         "endpoint": "DELETE /api/articles/:article/favorite"
+      },
+      {
+         "operation": "get article comments",
+         "endpoint": "GET /api/articles/:article/comments"
+      },
+      {
+         "operation": "comment article",
+         "endpoint": "POST /api/articles/:article/comments"
+      },
+      {
+         "operation": "delete comment",
+         "endpoint": "DELETE /api/articles/:article/comments/:comment"
+      },
+      {
+         "operation": "get all tags",
+         "endpoint": "GET /api/tags"
+      }
+   ],
+     "lawfulness_bases": [
+      {
+         "purpose": "user management",
+         "base": "consent"
+      },
+      {
+         "purpose": "article management",
+         "base": "consent"
+      }
+   ],
+   "personal_data_tables": [
+      {
+         "table": "users",
+         "column": "_id"
+      },
+      {
+         "table": "articles",
+         "column": "author"
+      },
+      {
+         "table": "comments",
+         "column": "author"
+      }
+   ]
+}
