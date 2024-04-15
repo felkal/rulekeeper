@@ -38,6 +38,7 @@ if [ -f "$file_path" ]; then
 else
     echo "Downloading OPA from github..."
     wget -O $file_path $github_repo
+    chmod +x $file_path
     echo "Finished"
 fi
 
